@@ -1,4 +1,4 @@
-package com.ecristobale.hexagonal.usecase;
+package com.ecristobale.hexagonal.domain.repository;
 
 import com.ecristobale.hexagonal.domain.model.Product;
 

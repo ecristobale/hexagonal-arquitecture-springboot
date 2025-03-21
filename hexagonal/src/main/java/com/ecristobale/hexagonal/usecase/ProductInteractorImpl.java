@@ -1,6 +1,7 @@
 package com.ecristobale.hexagonal.usecase;
 
 import com.ecristobale.hexagonal.domain.model.Product;
+import com.ecristobale.hexagonal.domain.repository.ProductRepositoryPort;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
