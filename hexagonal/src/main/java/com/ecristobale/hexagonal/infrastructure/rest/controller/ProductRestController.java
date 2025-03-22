@@ -1,6 +1,7 @@
 package com.ecristobale.hexagonal.infrastructure.rest.controller;
 
 import com.ecristobale.hexagonal.domain.model.Product;
+import com.ecristobale.hexagonal.infrastructure.rest.mapper.ProductDtoMapper;
 import com.ecristobale.hexagonal.infrastructure.rest.dto.ProductDto;
 import com.ecristobale.hexagonal.usecase.IProductInteractor;
 import lombok.RequiredArgsConstructor;
@@ -20,6 +21,6 @@ public class ProductRestController {
      public ProductDto findProductByProductId(@PathVariable String productId) {
          Product product = productInteractor.findProductByProductId(productId);
          // It is needed a mapper to convert from Product to ProductDto
-         return null;//ProductDtoMapper.fromProductToProductDto(product);
+         return ProductDtoMapper.fromProductToProductDto(product);
      }
 }
