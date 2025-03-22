@@ -22,6 +22,6 @@ The **goal** of this project is to create a simple **hexagonal** app using **Spr
 * Endpoint OK:
 ![Alt text](readme-screenshots/Hexagonal-Arquitecture-03.png?raw=true "Endpoint OK")
 
-* Endpoint ERROR:
-![Alt text](readme-screenshots/Hexagonal-Arquitecture-04.png?raw=true "Endpoint ERROR")
+* Endpoint NOT FOUND:
+![Alt text](readme-screenshots/Hexagonal-Arquitecture-04.png?raw=true "Endpoint NOT FOUND")
 
