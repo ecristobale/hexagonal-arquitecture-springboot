@@ -1,9 +1,6 @@
-package com.ecristobale.hexagonal.infrastructure.database.h2;
+package com.ecristobale.hexagonal.infrastructure.database.h2.entity;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 import lombok.Getter;
 
 import java.math.BigDecimal;

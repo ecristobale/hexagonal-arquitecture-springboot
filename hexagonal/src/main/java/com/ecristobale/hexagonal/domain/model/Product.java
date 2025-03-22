@@ -3,11 +3,13 @@ package com.ecristobale.hexagonal.domain.model;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.math.BigDecimal;
 
 @Getter
+@AllArgsConstructor
 public class Product {
     // Business model: class described by business expert (domain expert, not programmer)
 
