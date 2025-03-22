@@ -14,14 +14,14 @@ The **goal** of this project is to create a simple **hexagonal** app using **Spr
 ### Screenshots:
 
 * Layered Arquitecture vs Hexagonal Arquitecture:
-![Alt text](readme-screenshots/Hexagonal Arquitecture-01.png?raw=true "Layered Arquitecture vs Hexagonal Arquitecture")
+![Alt text](readme-screenshots/Hexagonal-Arquitecture-01.png?raw=true "Layered Arquitecture vs Hexagonal Arquitecture")
 
 * Hexagonal Arquitecture Schema:
-![Alt text](readme-screenshots/Hexagonal Arquitecture-02.png?raw=true "Hexagonal Arquitecture Schema")
+![Alt text](readme-screenshots/Hexagonal-Arquitecture-02.png?raw=true "Hexagonal Arquitecture Schema")
 
 * Endpoint OK:
-![Alt text](readme-screenshots/Hexagonal Arquitecture-03.png?raw=true "Endpoint OK")
+![Alt text](readme-screenshots/Hexagonal-Arquitecture-03.png?raw=true "Endpoint OK")
 
 * Endpoint ERROR:
-![Alt text](readme-screenshots/Hexagonal Arquitecture-04.png?raw=true "Endpoint ERROR")
+![Alt text](readme-screenshots/Hexagonal-Arquitecture-04.png?raw=true "Endpoint ERROR")
 
