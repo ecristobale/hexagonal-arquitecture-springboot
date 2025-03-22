@@ -1,5 +1,6 @@
 package com.ecristobale.hexagonal.infrastructure.rest.dto;
 
+import com.ecristobale.hexagonal.infrastructure.rest.util.PriceFormatter;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,6 +19,6 @@ public class ProductDto {
         this.productId = productId;
         this.name = name;
         this.description = description;
-        this.price = price.toString() + " " + currency;
+        this.price = PriceFormatter.formatPrice(price, currency);
     }
 }
